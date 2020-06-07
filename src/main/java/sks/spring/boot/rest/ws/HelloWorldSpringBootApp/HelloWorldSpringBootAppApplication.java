@@ -19,4 +19,10 @@ public class HelloWorldSpringBootAppApplication {
 		return "Hello  World" ;
 	}
 	
+	@GetMapping("/")
+	public String sayHi() {
+		
+		return "Hello  Welcome to jenkins" ;
+	}
+	
 }
