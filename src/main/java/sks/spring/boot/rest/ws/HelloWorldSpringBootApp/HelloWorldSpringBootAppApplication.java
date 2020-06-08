@@ -30,7 +30,7 @@ public class HelloWorldSpringBootAppApplication extends SpringBootServletInitial
 	@GetMapping("/")
 	public String sayHi() {
 		
-		return "Hello  Welcome to jenkins" ;
+		return "Hello  Welcome to jenkins. ya hu..." ;
 	}
 	
 }
